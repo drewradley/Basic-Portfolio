@@ -80,6 +80,7 @@ li a {
     /* margin 20px; */
   }
 p{
+    width: 170%;
     margin: 10px;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
     text-align: justify;
