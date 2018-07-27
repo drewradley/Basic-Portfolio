@@ -100,11 +100,11 @@ h1 {
     
   }
   footer {
+    position: fixed;
+    bottom: 0;
     height: 20px;
-      width: 60%;
+      width: 100%;
     /* padding: 20px; */
-    margin-left:20%;
-    margin-top: 20px;
     float: left;
     background: gray;
     border-top: 6px solid #4AAAA5;
