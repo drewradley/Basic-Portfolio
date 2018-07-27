@@ -1,74 +1,126 @@
 body {
-    /* padding: 0;
+    margin:0;
+    background-color: lightgray;}
+
+ul {
+    list-style-type: none;
     margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: black;
-    background: gray; */
-    
-    
-  }
-  
-  header {
-    /* background: whitesmoke;
-    height: 50px; */
-  }
-  p{
-    /* text-align:justify;
-    line-height: 95%; */
+    /* margin-right: 20%; */
+    height: 60px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 20%;
+    width: 100%;
+}
 
+li {
+    /* background-color: #4AAAA5; */
+    float: right;
+    
+
+}
+
+li a {
+
+    display: block;
+    color: lightgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid lightgray;
+    height: 10px;
+}
+.topBox
+{
+    height: 60px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid grey;
+
+}
+.nameBox{
+    height: 40px;
+    padding: 30px;
+    overflow: hidden;
+    background-color: #4AAAA5;
+    position: fixed;
+    top: 0;
+    left: 20%;
+    right:70%;
+    width: 10%; 
+    border-bottom: 1px solid grey;
+}
+.infoBox{
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:150px;
+    height: 500px;
+    size: 60%;
+    background-color: white;
+    border: 1px solid gray;
+
+}
+#main-bio {
+    width: 55%;
+    float: left;
+    margin: 20px;
   }
-  h1 {
-    /* padding: 20px; */
-    /* margin-left: 20%; */
-    /* margin-bottom: 20px; */
-    /* font-size: 28px;
+#bio-image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    /* margin 20px; */
+  }
+p{
+    margin: 10px;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    text-align: justify;
+}
+h1 {
+
+    font-size: 28px;
     color: white;
-    text-align: center; */
-    /* background-color: aquamarine; */
-    /* width: 10%; */
-  }
-  .nameBox
-  {
-    /* margin-left: 20%;
-
-      background-color: aquamarine;
-      width: 10%;
-      text-align: center;
-    height: 50px; */
+    text-align: center;
 
   }
   h2 {
-    /* font-size: 24px; */
+    padding: 20px;
+    font-size: 28px;
+    color: #4AAAA5;
+    text-align: left;
+    border-bottom: 2px solid green;
+    
   }
-  
-  a {
-    /* color: red; */
+  footer {
+    height: 20px;
+      width: 60%;
+    /* padding: 20px; */
+    margin-left:20%;
+    margin-top: 20px;
+    float: left;
+    background: gray;
+    border-top: 6px solid #4AAAA5;
+   padding-top:80px;
+    text-align: center;
+    color: white;
+   
   }
-  
-  .container {
-    /* width: 1024px; */
-    /* margin: 0 auto; */
-  }
-  
-  #main-bio,
-  #contact-info,
-  #bio-image {
-    /* float: left; */
-  }
-  
-  #main-bio {
-    /* width: 55%; */
-  }
-  
-  #contact-info {
-    /* width: 30%;
-    padding: 10px; */
-  }
-  
-  #bio-image {
-    /* width: 200px;
-    height: 200px;
-    margin-right: 20px; */
-  }
+li a:default
+{
+  /* background-color: #4AAAA5; */
+}
+li a:hover:not(.active) {
+    /* background-color: #111; */
+}
+
+.active {
+    /* background-color: #4CAF50; */
+}
